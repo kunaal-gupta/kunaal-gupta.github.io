@@ -63,15 +63,6 @@
 
 <body class="has-side-panel side-panel-right fullwidth-page">
 <div id="wrapper" class="clearfix">
-    <!--     preloader -->
-    <div id="preloader">
-        <div id="spinner">
-            <div class="preloader-loading-wrapper">
-                <div class="cssload-loading"><i></i><i></i></div>
-            </div>
-        </div>
-    </div>
-
 
     <!-- Header -->
     <header id="header" class="header">
@@ -102,6 +93,8 @@
     </section>
 
 
+
+
     <section class="divider @white-f8">
         <div id="about-me"class="container pt-120 pb-120">
             <div class="row">
@@ -110,8 +103,8 @@
                     <img class="img-fullwidth" src=" images/KunaalGupta.jpeg" alt="Kunaal Gupta Image">
                 </div>
                 <div class="col-sm-8">
-                    <h2>Hi! I am Kunaal Gupta</h2>
-                    <h4 > As a young tech enthusiast, I am eager to collaborate with diverse teams to develop and deliver sustainable technologies ensuring optimal functionality, quality, and reliability to improve the end-user experience.</h4>
+                    <h2 id = "demo"></h2>
+                    <h4 id = "info"> <i> "As a young tech enthusiast, I am eager to collaborate with diverse teams to develop and deliver sustainable technologies ensuring optimal functionality, quality, and reliability to improve the end-user experience" </i> </h4>
                     <h4> <b> Education: </b> BSc Computer Science with Business minor | University of Alberta (2021-25) </h4>
                     <h4 align="left"> <b> Languages and Tools: </b> </h4>
                     <p align="left">
@@ -159,6 +152,24 @@
             </div>
         </div>
     </section>
+
+        <script>
+        var i = 0;
+        var txt = 'Hi! I am Kunaal Gupta';
+        var speed = 50;
+
+        function typeWriter() {
+          if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+          }
+        }
+        window.onloadstart = typeWriter();
+
+
+    </script>
+
     <section class="bg-lighter">
         <div id="my-recent-updates" class="container pb-30">
             <div class="section-title text-center">
