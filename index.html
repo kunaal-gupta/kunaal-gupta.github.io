@@ -40,7 +40,7 @@
     <link href=" js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
 
     <!-- CSS | Theme Color -->
-<!--    <link href="css/colors/theme-skin-color-set6.css"rel="stylesheet" type="text/css">-->
+    <!--    <link href="css/colors/theme-skin-color-set6.css"rel="stylesheet" type="text/css">-->
 
     <!-- external javascripts -->
     <script src=" js/jquery-2.2.4.min.js" ></script>
@@ -59,6 +59,26 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js" ></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <style>
+        .linkedin-post {
+            background-color: deepskyblue;
+            padding: 10px 25%;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 10px;
+
+
+        }
+
+        .linkedin-post:hover {
+            background-color: #0077B5;
+            color: white;
+
+
+        }
+    </style>
 </head>
 
 <body class="has-side-panel side-panel-right fullwidth-page">
@@ -70,15 +90,15 @@
             <div class="header-nav navbar-sticky navbar-sticky-animated">
                 <div class="header-nav-wrapper">
                     <div class="container">
-                            <ul class="menuzord-menu" >
-                                <li><a href="#about-me" class="smooth-scroll-to-target" style="font-size: 18px; font-weight: bold; color: white ">About Me</a> </li>
-                                <li><a href="#my-recent-updates" class="smooth-scroll-to-target"style="font-size: 18px; font-weight: bold; color: white">My Recent Updates</a> </li>
-                                <li><a href="#my-experience" class="smooth-scroll-to-target" style="font-size: 18px; font-weight: bold;color: white ">Experience</a></li>
-                                <li><a href="#my-projects" class="smooth-scroll-to-target" style="font-size: 18px; font-weight: bold;color: white ">Projects </a></li>
-                                <li><a href="#courses" class="smooth-scroll-to-target" style="font-size: 18px; font-weight: bold;color: white">Courses</a></li>
-                                <li><a href="#awards-honours" class="smooth-scroll-to-target" style="font-size: 18px; font-weight: bold;color: white">Awards & Honours </a></li>
-                                <li><a href="#footer" class="smooth-scroll-to-target" style="font-size: 18px; font-weight: bold; color: white">Contact Me</a></li>
-                            </ul>
+                        <ul class="menuzord-menu" >
+                            <li><a href="#about-me" class="smooth-scroll-to-target" style="font-size: 18px; font-weight: bold; color: white ">About Me</a> </li>
+                            <li><a href="#my-recent-updates" class="smooth-scroll-to-target"style="font-size: 18px; font-weight: bold; color: white">My Recent Updates</a> </li>
+                            <li><a href="#my-experience" class="smooth-scroll-to-target" style="font-size: 18px; font-weight: bold;color: white ">Experience</a></li>
+                            <li><a href="#my-projects" class="smooth-scroll-to-target" style="font-size: 18px; font-weight: bold;color: white ">Projects </a></li>
+                            <li><a href="#courses" class="smooth-scroll-to-target" style="font-size: 18px; font-weight: bold;color: white">Courses</a></li>
+                            <li><a href="#awards-honours" class="smooth-scroll-to-target" style="font-size: 18px; font-weight: bold;color: white">Awards & Honours </a></li>
+                            <li><a href="#footer" class="smooth-scroll-to-target" style="font-size: 18px; font-weight: bold; color: white">Contact Me</a></li>
+                        </ul>
                         </nav>
                     </div>
                 </div>
@@ -120,7 +140,7 @@
                         <a href="https://soliditylang.org/" target="_blank"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnnL8mJql9x-TdjLGrX_JGElFsAAzs3JL4j-oEXKMJ1j3rspq6nspt5xiC77et5SC20EA&usqp=CAU" alt="Ethereum" width="40" height="40"/> </a>
                         <a href="https://www.hyperledger.org/use/fabric" target="_blank"> <img src="https://chainstack.com/wp-content/uploads/2020/07/fabric.png" alt="Hyperledger FabricSolidityEthereum" width="40" height="40"/> </a>
 
-                    <br>
+                        <br>
                     <h3 align="left"> <b> Certifications: </b> </h3>
                     <div class=row>
                         <div class="col-sm-6">
@@ -159,11 +179,11 @@
         var speed = 50;
 
         function typeWriter() {
-          if (i < txt.length) {
-            document.getElementById("demo").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);
-          }
+            if (i < txt.length) {
+                document.getElementById("demo").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
         }
         window.onloadstart = typeWriter();
 
@@ -174,9 +194,9 @@
         <div id="my-recent-updates" class="container pb-30">
             <div class="section-title text-center">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">                        
-                        <h2 class="mt-0">My Recent Updates (5) </h2>
-                                  <div class="line-bottom-centered"></div>
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2 class="mt-0">My Recent Updates (7) </h2>
+                        <div class="line-bottom-centered"></div>
 
                     </div>
                     <section>
@@ -186,30 +206,40 @@
                                     <div class="col-md-12">
                                         <div class="owl-carousel-3col owl-nav-top" data-nav="true" >
                                             <div class="service-box text-center p-30 mb-30 bg-gray-lighter hover-box-shadow item">
-                                               <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6965499142227771392" height="400" width="515" frameborder="0" allowfullscreen="" title="Embedded post"></iframe><br> <br>
-                                                <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/posts/iamkunaalgupta_developer-technology-accenture-developer-activity-6965499142945054720-ejiX?utm_source=share&utm_medium=member_desktop" target="_blank" role="button">Read Full Post</a>
+                                                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7062833585149378561" height="400" width="800" frameborder="0" allowfullscreen="" title="Embedded post"></iframe><br> <br>
+                                                <a class="linkedin-post" href="https://www.linkedin.com/posts/iamkunaalgupta_innovation-technology-wcb-activity-7062833586034397186-fnm6?utm_source=share&utm_medium=member_desktop" target="_blank" role="button">Read Full Post</a>
                                             </div>
 
                                             <div class="service-box text-center p-30 mb-30 bg-gray-lighter hover-box-shadow item">
-                                                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6926966091336335360" height="400" width="515" frameborder="0" allowfullscreen="" title="Embedded post">" height="400" width="800" frameborder="0" allowfullscreen="" title="Embedded post"></iframe><br> <br>
-                                                <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/posts/iamkunaalgupta_wcb-summerinternship2022-summer-activity-6926966092057759744-uQ7g?utm_source=share&utm_medium=member_desktop" target="_blank" role="button">Read Full Post</a>
+                                                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6995977443102650369" height="400" width="800" frameborder="0" allowfullscreen="" title="Embedded post"></iframe><br> <br>
+                                                <a class="linkedin-post" href="https://www.linkedin.com/posts/iamkunaalgupta_python-tensorflow-voicetotext-activity-6995977443962499072-wFX8?utm_source=share&utm_medium=member_desktop" target="_blank" role="button">Read Full Post</a>
+                                            </div>
+
+                                            <div class="service-box text-center p-30 mb-30 bg-gray-lighter hover-box-shadow item">
+                                                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6965499142227771392" height="400" width="800" frameborder="0" allowfullscreen="" title="Embedded post"></iframe><br> <br>
+                                                <a class="linkedin-post" href="https://www.linkedin.com/posts/iamkunaalgupta_developer-technology-accenture-developer-activity-6965499142945054720-ejiX?utm_source=share&utm_medium=member_desktop" target="_blank" role="button">Read Full Post</a>
+                                            </div>
+
+                                            <div class="service-box text-center p-30 mb-30 bg-gray-lighter hover-box-shadow item">
+                                                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6926966091336335360" height="400" width="800" frameborder="0" allowfullscreen="" title="Embedded post"></iframe><br> <br>
+                                                <a class="linkedin-post" href="https://www.linkedin.com/posts/iamkunaalgupta_wcb-summerinternship2022-summer-activity-6926966092057759744-uQ7g?utm_source=share&utm_medium=member_desktop" target="_blank" role="button">Read Full Post</a>
 
                                             </div>
 
                                             <div class="service-box text-center p-30 mb-30 bg-gray-lighter hover-box-shadow item">
-                                                 <iframe  src="https://www.linkedin.com/embed/feed/update/urn:li:share:6920373898043650050" height="400" width="515" frameborder="0" allowfullscreen="" title="Embedded post"></iframe><br> <br>
-                                                 <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/posts/iamkunaalgupta_project-management-fundamentals-was-issued-activity-6920373898471464961-P62w?utm_source=share&utm_medium=member_desktop" target="_blank" role="button">Read Full Post</a>
+                                                <iframe  src="https://www.linkedin.com/embed/feed/update/urn:li:share:6920373898043650050" height="400" width="800" frameborder="0" allowfullscreen="" title="Embedded post"></iframe><br> <br>
+                                                <a class="linkedin-post" href="https://www.linkedin.com/posts/iamkunaalgupta_project-management-fundamentals-was-issued-activity-6920373898471464961-P62w?utm_source=share&utm_medium=member_desktop" target="_blank" role="button">Read Full Post</a>
 
                                             </div>
 
                                             <div class="service-box text-center p-30 mb-30 bg-gray-lighter hover-box-shadow item">
-                                                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6894205218209308672" height="400" width="815" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> <br> <br>
-                                                <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/posts/iamkunaalgupta_students-university-voting-activity-6894205219203354624-ehzw?utm_source=share&utm_medium=member_desktop" target="_blank" role="button">Read Full Post</a>
+                                                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6894205218209308672" height="400" width="800" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> <br> <br>
+                                                <a class="linkedin-post" href="https://www.linkedin.com/posts/iamkunaalgupta_students-university-voting-activity-6894205219203354624-ehzw?utm_source=share&utm_medium=member_desktop" target="_blank" role="button">Read Full Post</a>
 
                                             </div>
                                             <div class="service-box text-center p-30 mb-30 bg-gray-lighter hover-box-shadow item">
-                                                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6886735487319588865" height="400" width="515" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> <br> <br>
-                                                <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/posts/iamkunaalgupta_im-happy-to-share-that-im-starting-a-new-activity-6886735487319588865-GAT7?utm_source=share&utm_medium=member_desktop" target="_blank" role="button">Read Full Post</a>
+                                                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6886735487319588865" height="400" width="800" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> <br> <br>
+                                                <a class="linkedin-post" href="https://www.linkedin.com/posts/iamkunaalgupta_im-happy-to-share-that-im-starting-a-new-activity-6886735487319588865-GAT7?utm_source=share&utm_medium=member_desktop" target="_blank" role="button">Read Full Post</a>
                                             </div>
 
                                         </div>
@@ -231,7 +261,7 @@
                             <i class="fa fa-font-awesome font-30"></i>
                         </div>
                         <h2 class="mt-0">Experience</h2>
-                                  <div class="line-bottom-centered"></div>
+                        <div class="line-bottom-centered"></div>
                     </div>
                 </div>
             </div>
@@ -244,10 +274,23 @@
                             <div class="cd-timeline-content">
                                 <img src="images/WCB.jpg" class="pull-right" alt="Picture" width="180">
                                 <h2>Worker Compensation Board - Alberta</h2>
+                                <h4>Technology Support Student</h4>
+                                <p>Collaborating with tech experts on cloud computing technologies such as Microsoft Azure, blockchain, and MS Power Platform to support innovation projects</p>
+                                <a class="btn btn-primary" href="https://www.linkedin.com/in/kuna" class="cd-read-more">Read more</a>
+                                <span class="cd-date">May 2023 - Present</span>
+                            </div> <!-- cd-timeline-content -->
+                        </div> <!-- cd-timeline-block -->
+
+                        <div class="cd-timeline-block">
+                            <div class="cd-timeline-img cd-picture">
+                            </div> <!-- cd-timeline-img -->
+                            <div class="cd-timeline-content">
+                                <img src="images/WCB.jpg" class="pull-right" alt="Picture" width="180">
+                                <h2>Worker Compensation Board - Alberta</h2>
                                 <h4>Summer Student - Project Delivery Office</h4>
                                 <p>Assist with planning, business process mapping, and testing of a new Project Portfolio Management (PPM) solution using business applications like Control-M, Cawemo etc. Manage tickets & resolve technical issues using SQL Server as part of System Support department</p>
                                 <a class="btn btn-primary" href="https://www.linkedin.com/in/kuna" class="cd-read-more">Read more</a>
-                                <span class="cd-date">May 2022 - Present</span>
+                                <span class="cd-date">May 2022 - April 2023</span>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
 
@@ -304,7 +347,7 @@
                             <i class="fa fa-product-hunt font-30"></i>
                         </div>
                         <h2 class="mt-0">Projects (7) </h2>
-                                  <div class="line-bottom-centered"></div>
+                        <div class="line-bottom-centered"></div>
 
                     </div>
                     <section>
@@ -328,8 +371,8 @@
                                                     </div>
                                                 </article>
                                             </div>
-                                            
-                                            
+
+
 
                                             <div class="service-box text-center p-30 mb-30 bg-gray-lighter hover-box-shadow item">
                                                 <article class="post">
@@ -357,13 +400,13 @@
 
                                                         <script>
                                                             function ProjAlert() {
-                                                              alert("This Project is not available for a public view. Contact the owner for more information");
+                                                                alert("This Project is not available for a public view. Contact the owner for more information");
                                                             }
                                                         </script>
 
                                                     </div>
-                                                    </article>
-                                                </div>
+                                                </article>
+                                            </div>
                                             <div class="service-box text-center p-30 mb-30 bg-gray-lighter hover-box-shadow item">
                                                 <article class="post">
 
@@ -387,7 +430,7 @@
 
                                                     </div>
                                                 </article>
-                                                </div>
+                                            </div>
                                             <div class="service-box text-center p-30 mb-30 bg-gray-lighter hover-box-shadow item">
                                                 <article class="post">
 
@@ -448,199 +491,199 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4">
-                  <div class="service-box border-1px hover-box-shadow p-20 mb-20">
-                      <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/cmput/274" target="_blank"><h4>CMPUT 274 - Intro to Tangible Computing Science - I</h4></a>
-<!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
-                  </div>
+                    <div class="service-box border-1px hover-box-shadow p-20 mb-20">
+                        <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/cmput/274" target="_blank"><h4>CMPUT 274 - Intro to Tangible Computing Science - I</h4></a>
+                        <!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
+                    </div>
                 </div>
-                 <div class="col-xs-12 col-sm-6 col-md-4">
-                  <div class="service-box border-1px hover-box-shadow p-20 mb-20">
-                      <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/cmput/275"target="_blank"><h4>CMPUT 275 - Intro to Tangible Computing Science - II</h4></a>
-<!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
-                  </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="service-box border-1px hover-box-shadow p-20 mb-20">
+                        <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/cmput/275"target="_blank"><h4>CMPUT 275 - Intro to Tangible Computing Science - II</h4></a>
+                        <!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
+                    </div>
                 </div>
-                 <div class="col-xs-12 col-sm-6 col-md-4">
-                  <div class="service-box border-1px hover-box-shadow p-20 mb-20">
-                      <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/cmput/296"target="_blank"><h4>CMPUT 296 - Gaming AI</h4></a><br>
-<!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
-                  </div>
-                </div>
-            </div>
-            <div class="row">
-                 <div class="col-xs-12 col-sm-6 col-md-4">
-                  <div class="service-box border-1px hover-box-shadow p-20 mb-20">
-                      <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/cmput/291"target="_blank"><h4>CMPUT 291 - Introduction to File Management</h4></a>
-<!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
-                  </div>
-                </div>
-                 <div class="col-xs-12 col-sm-6 col-md-4">
-                  <div class="service-box border-1px hover-box-shadow p-20 mb-20">
-                      <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/cmput/272"target="_blank"><h4>CMPUT 272 - Formal Systems and Logic in Computing Science</h4></a>
-<!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
-                  </div>
-                </div>
-                 <div class="col-xs-12 col-sm-6 col-md-4">
-                  <div class="service-box border-1px hover-box-shadow p-20 mb-20">
-                      <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/cmput/204"target="_blank"><h4>CMPUT 204 - Algorithm - I</h4></a><br>
-<!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
-                  </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="service-box border-1px hover-box-shadow p-20 mb-20">
+                        <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/cmput/296"target="_blank"><h4>CMPUT 296 - Gaming AI</h4></a><br>
+                        <!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
+                    </div>
                 </div>
             </div>
             <div class="row">
-                 <div class="col-xs-12 col-sm-6 col-md-4">
-                  <div class="service-box border-1px hover-box-shadow p-20 mb-20">
-                      <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/cmput/261"target="_blank"><h4>CMPUT 261 - Introduction to Artificial Intelligence</h4></a>
-<!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
-                  </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="service-box border-1px hover-box-shadow p-20 mb-20">
+                        <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/cmput/291"target="_blank"><h4>CMPUT 291 - Introduction to File Management</h4></a>
+                        <!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
+                    </div>
                 </div>
-                 <div class="col-xs-12 col-sm-6 col-md-4">
-                  <div class="service-box border-1px hover-box-shadow p-20 mb-20">
-                      <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/cmput/206"target="_blank"><h4>CMPUT 206 - Introduction to Digital Image Processing</h4></a>
-<!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
-                  </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="service-box border-1px hover-box-shadow p-20 mb-20">
+                        <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/cmput/272"target="_blank"><h4>CMPUT 272 - Formal Systems and Logic in Computing Science</h4></a>
+                        <!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
+                    </div>
                 </div>
-                 <div class="col-xs-12 col-sm-6 col-md-4">
-                  <div class="service-box border-1px hover-box-shadow p-20 mb-20">
-                      <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/econ/101"target="_blank"><h4>ECON 101 - Introduction to Microeconomics</h4></a>
-<!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
-                  </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="service-box border-1px hover-box-shadow p-20 mb-20">
+                        <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/cmput/204"target="_blank"><h4>CMPUT 204 - Algorithm - I</h4></a><br>
+                        <!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="service-box border-1px hover-box-shadow p-20 mb-20">
+                        <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/cmput/261"target="_blank"><h4>CMPUT 261 - Introduction to Artificial Intelligence</h4></a>
+                        <!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="service-box border-1px hover-box-shadow p-20 mb-20">
+                        <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/cmput/206"target="_blank"><h4>CMPUT 206 - Introduction to Digital Image Processing</h4></a>
+                        <!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="service-box border-1px hover-box-shadow p-20 mb-20">
+                        <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/econ/101"target="_blank"><h4>ECON 101 - Introduction to Microeconomics</h4></a>
+                        <!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
+                    </div>
                 </div>
             </div>
 
         </div>
     </section>
-    
+
     <!-- Section: Services -->
     <section class="bg-lighter">
-      <div class="container pb-60" id = "awards-honours">
-        <div class="section-title mb-30">
-          <div class="row">
-            <div class="col-md-6 col-md-offset-3  text-center">
-                <h2 class="mt-0">Awards & Honours</h2>
-              <div class="line-bottom-centered"></div>
-            </div>
-          </div>
-        </div>
-        <div class="section-content">
-          <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="service-box border-1px hover-box-shadow p-30 mb-30">
-                <h4 class="media-heading heading font-weight-600">The Jobber Leadership Award in Computing Science</h4>
-                <p > Awarded to students with satisfactory academic standing and demonstrated leadership in extracurricular & community activities </p>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="service-box border-1px hover-box-shadow p-30 mb-30">
-                <h4 class="media-heading heading font-weight-600">International Student Scholarship - Renewable</h4>
-                <p > Awarded to students with superior academic achievement entering their first undergraduate degree program in University of Alberta </p>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="service-box border-1px hover-box-shadow p-30 mb-30">
-                <h4 class="media-heading heading font-weight-600">University of Alberta International Country Scholarship</h4>
-                  <p>Awarded to students on Study Permit with superior academic achievement entering the first year of an undergraduate degree at the University of Alberta</p>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="service-box border-1px hover-box-shadow p-30 mb-30">
-                <h4 class="media-heading heading font-weight-600">Film Making: Ayurveda - Ancient Heritage of India</h4>
-                <p>Earned a title “Best Screenplay” award from Filmit, INTACH for my film Ayurveda - focusing on Indian heritage of natural health science<br><br><br> </p>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="service-box border-1px hover-box-shadow p-30 mb-30">
-                <h4 class="media-heading heading font-weight-600">All India Inter School Maths Talent Test 2018</h4>
-                <p>Earned a Silver Medal for clearing puzzling questions of Maths & Mental ability in 'The Annual Mathematics Talent test' conducted by Manav Sthali School (affiliated by CBSE & Inter Primary Curriculum (U.K.)) </p>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="service-box border-1px hover-box-shadow p-30 mb-30">
-                <h4 class="media-heading heading font-weight-600">Junior Science Talent Search Examination (JSTSE)</h4>
-                <p>Cleared Junior Science Talent Search Examination— an Indian scholarship exam, with a State Rank of 20, to receive a Scholarship Cheque and a Merit Certificate from Directorate Of Education, Delhi Government</p>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="service-box border-1px hover-box-shadow p-30 mb-30">
-                <h4 class="media-heading heading font-weight-600">Australian National Chemistry Quiz (ANCQ)</h4>
-                <p>Earned a junior division of 7 and distinction certificate in Australian National Chemistry Quiz (ANCQ) in Chemistry</p>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="service-box border-1px hover-box-shadow p-30 mb-30">
-                <h4 class="media-heading heading font-weight-600">International Maths Olympiad (IMO)</h4>
-                <p>Achieved an International rank of 2111 and a merit certificate upon solving Maths & Mental ability questions in the International Maths Olympiad.</p>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="service-box border-1px hover-box-shadow p-30 mb-30">
-                <h4 class="media-heading heading font-weight-600">NASA Astronomy Olympiad (NAO)</h4>
-                <p>Bagged medals: 2 Silver & 1 Bronze, in NASA Astronomy Olympiad upon clearing school level examination three times in my junior classes which focused on Science & Astronomy.</p>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="service-box border-1px hover-box-shadow p-30 mb-30">
-                <h4 class="media-heading heading font-weight-600">Appreciation Letter & Shining star</h4>
-                <p>Received an appreciation letter from Walmart Canada for 'Respect for individuals', 'Service to the community' and 'Act with integrity'<br><br></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    
-                <!-- Footer -->
-    <footer id="footer" class="footer" data-bg-color="#252A31">
-        <div class="container pt-20 pb-5">
-<!--            <div class="col-sm-6 col-md-3">-->
-                <div class="widget dark">
-                    <div>
-                        <i class="col-sm fa fa-envelope-o text-gray mr-5 pl-2"></i> <a class="text-white" href="mailto:kunaal@ualberta.ca"> kunaal@ualberta.ca </a>
-                        <i class="col-sm fa fa-envelope-o text-gray mr-5 pl-2" style="margin-left: 10px"></i> <a class="text-white"  href="mailto:kunaalgupta@hotmail.com">kunaalgupta@hotmail.com </a>
-                        <i class="col-sm fa fa-github text-gray mr-5 pl-2" style="margin-left: 10px"></i> <a class="text-white"  href="https://kunaal-gupta.github.io">kunaal-gupta.github.io </a>
-
-                        <a style="margin-left: 460px"  href="https://www.linkedin.com/in/iamkunaalgupta/"><i style="color: whitesmoke" class="fa fa-linkedin"></i></a>
-                        <a style="margin-left: 10px"  href="https://github.com/kunaal-gupta"><i style="color: whitesmoke" class="fa fa-github"></i></a>
-                        <a style="margin-left: 10px"  href="https://www.facebook.com/kunaal.gupta.9406"><i style="color: whitesmoke"  class="fa fa-facebook"></i></a>
-                        <a style="margin-left: 10px"  href="https://www.instagram.com/kunaalgupta_/"><i style="color: whitesmoke" class="fa fa-instagram"></i></a>
-
-                    </div>
-
-                        <form action="https://formspree.io/f/xpznwkpb" target="_blank" method="POST" class="contact_form grid" id="contact-form">
-                          <div class="row contact_inputs grid">
-                            <div class="col-sm-2 contact_content">
-                              <input type="text" class="contact_input" name="fullName" placeholder="Full Name"/>
-                            </div>
-                            <div class="col-sm-2 contact_content">
-                              <input type="email" class="contact_input" name="emailAddress" placeholder="Email Address"/>
-                            </div>
-                            <div class="col-sm-2 contact_content">
-                              <input type="text" class="contact_input" name="message" placeholder="Message"/>
-                            </div>
-
-                            <div class="col-sm-2">
-                              <button href="#" class="btn-primary" type="submit"> Send Message <i class="uil uil-message button_icon"></i>
-                              </button>
-                            </div>
-                          </div>
-                        </form>
-                    </div>
-
-            </div>
-        </div>
-        <div class="footer-bottom" data-bg-color="#2B3037">
-            <div class="container pt-20 pb-20">
+        <div class="container pb-60" id = "awards-honours">
+            <div class="section-title mb-30">
                 <div class="row">
-                    <div class="col-md-6">
-
-                        <p class="font-14 text-black-777 m-0">Copyright &copy; 2022  <span class="text-theme-colored2" style="color: skyblue"> Kunaal Gupta </span>. All Rights Reserved</p>
+                    <div class="col-md-6 col-md-offset-3  text-center">
+                        <h2 class="mt-0">Awards & Honours</h2>
+                        <div class="line-bottom-centered"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="service-box border-1px hover-box-shadow p-30 mb-30">
+                            <h4 class="media-heading heading font-weight-600">The Jobber Leadership Award in Computing Science</h4>
+                            <p > Awarded to students with satisfactory academic standing and demonstrated leadership in extracurricular & community activities </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="service-box border-1px hover-box-shadow p-30 mb-30">
+                            <h4 class="media-heading heading font-weight-600">International Student Scholarship - Renewable</h4>
+                            <p > Awarded to students with superior academic achievement entering their first undergraduate degree program in University of Alberta </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="service-box border-1px hover-box-shadow p-30 mb-30">
+                            <h4 class="media-heading heading font-weight-600">University of Alberta International Country Scholarship</h4>
+                            <p>Awarded to students on Study Permit with superior academic achievement entering the first year of an undergraduate degree at the University of Alberta</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="service-box border-1px hover-box-shadow p-30 mb-30">
+                            <h4 class="media-heading heading font-weight-600">Film Making: Ayurveda - Ancient Heritage of India</h4>
+                            <p>Earned a title “Best Screenplay” award from Filmit, INTACH for my film Ayurveda - focusing on Indian heritage of natural health science<br><br><br> </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="service-box border-1px hover-box-shadow p-30 mb-30">
+                            <h4 class="media-heading heading font-weight-600">All India Inter School Maths Talent Test 2018</h4>
+                            <p>Earned a Silver Medal for clearing puzzling questions of Maths & Mental ability in 'The Annual Mathematics Talent test' conducted by Manav Sthali School (affiliated by CBSE & Inter Primary Curriculum (U.K.)) </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="service-box border-1px hover-box-shadow p-30 mb-30">
+                            <h4 class="media-heading heading font-weight-600">Junior Science Talent Search Examination (JSTSE)</h4>
+                            <p>Cleared Junior Science Talent Search Examination— an Indian scholarship exam, with a State Rank of 20, to receive a Scholarship Cheque and a Merit Certificate from Directorate Of Education, Delhi Government</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="service-box border-1px hover-box-shadow p-30 mb-30">
+                            <h4 class="media-heading heading font-weight-600">Australian National Chemistry Quiz (ANCQ)</h4>
+                            <p>Earned a junior division of 7 and distinction certificate in Australian National Chemistry Quiz (ANCQ) in Chemistry</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="service-box border-1px hover-box-shadow p-30 mb-30">
+                            <h4 class="media-heading heading font-weight-600">International Maths Olympiad (IMO)</h4>
+                            <p>Achieved an International rank of 2111 and a merit certificate upon solving Maths & Mental ability questions in the International Maths Olympiad.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="service-box border-1px hover-box-shadow p-30 mb-30">
+                            <h4 class="media-heading heading font-weight-600">NASA Astronomy Olympiad (NAO)</h4>
+                            <p>Bagged medals: 2 Silver & 1 Bronze, in NASA Astronomy Olympiad upon clearing school level examination three times in my junior classes which focused on Science & Astronomy.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="service-box border-1px hover-box-shadow p-30 mb-30">
+                            <h4 class="media-heading heading font-weight-600">Appreciation Letter & Shining star</h4>
+                            <p>Received an appreciation letter from Walmart Canada for 'Respect for individuals', 'Service to the community' and 'Act with integrity'<br><br></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer id="footer" class="footer" data-bg-color="#252A31">
+        <div class="container pt-20 pb-5">
+            <!--            <div class="col-sm-6 col-md-3">-->
+            <div class="widget dark">
+                <div>
+                    <i class="col-sm fa fa-envelope-o text-gray mr-5 pl-2"></i> <a class="text-white" href="mailto:kunaal@ualberta.ca"> kunaal@ualberta.ca </a>
+                    <i class="col-sm fa fa-envelope-o text-gray mr-5 pl-2" style="margin-left: 10px"></i> <a class="text-white"  href="mailto:kunaalgupta@hotmail.com">kunaalgupta@hotmail.com </a>
+                    <i class="col-sm fa fa-github text-gray mr-5 pl-2" style="margin-left: 10px"></i> <a class="text-white"  href="https://kunaal-gupta.github.io">kunaal-gupta.github.io </a>
+
+                    <a style="margin-left: 460px"  href="https://www.linkedin.com/in/iamkunaalgupta/"><i style="color: whitesmoke" class="fa fa-linkedin"></i></a>
+                    <a style="margin-left: 10px"  href="https://github.com/kunaal-gupta"><i style="color: whitesmoke" class="fa fa-github"></i></a>
+                    <a style="margin-left: 10px"  href="https://www.facebook.com/kunaal.gupta.9406"><i style="color: whitesmoke"  class="fa fa-facebook"></i></a>
+                    <a style="margin-left: 10px"  href="https://www.instagram.com/kunaalgupta_/"><i style="color: whitesmoke" class="fa fa-instagram"></i></a>
+
+                </div>
+
+                <form action="https://formspree.io/f/xpznwkpb" target="_blank" method="POST" class="contact_form grid" id="contact-form">
+                    <div class="row contact_inputs grid">
+                        <div class="col-sm-2 contact_content">
+                            <input type="text" class="contact_input" name="fullName" placeholder="Full Name"/>
+                        </div>
+                        <div class="col-sm-2 contact_content">
+                            <input type="email" class="contact_input" name="emailAddress" placeholder="Email Address"/>
+                        </div>
+                        <div class="col-sm-2 contact_content">
+                            <input type="text" class="contact_input" name="message" placeholder="Message"/>
+                        </div>
+
+                        <div class="col-sm-2">
+                            <button href="#" class="btn-primary" type="submit"> Send Message <i class="uil uil-message button_icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+</div>
+<div class="footer-bottom" data-bg-color="#2B3037">
+    <div class="container pt-20 pb-20">
+        <div class="row">
+            <div class="col-md-6">
+
+                <p class="font-14 text-black-777 m-0">Copyright &copy; 2022  <span class="text-theme-colored2" style="color: skyblue"> Kunaal Gupta </span>. All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 </div>
 <!-- end wrapper -->
 
