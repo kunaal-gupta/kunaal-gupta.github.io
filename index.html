@@ -74,13 +74,22 @@
         }
 
         .pLangIcon:hover{
-            transform: rotate(350deg);
+            transform: rotate(350deg) scale(1.1);
         }
 
         .tLangContainer {
             position: relative;
             margin: 20% 1%;
 
+        }
+        .myImg{
+            margin-top: 5%;
+        }
+        .myImg:hover{
+
+            transform: scale(0.9);
+            cursor: pointer;
+            /*background-color: darkred;*/
         }
 
         .University:hover{
@@ -139,6 +148,7 @@
     </style>
 </head>
 
+
 <body class="has-side-panel side-panel-right fullwidth-page">
 <div id="wrapper" class="clearfix">
 
@@ -168,7 +178,7 @@
     <section class="divider @white-f8">
         <div id="about-me"class="container pt-0 pb-120">
             <div class="row" >
-                <div class="col-sm-4">
+                <div class="myImg col-sm-4">
                     <img src=" images/KunaalGupta.png" alt="Kunaal Gupta Image" height="50%">
                 </div>
                 <div class="col-sm-8">
@@ -253,26 +263,26 @@
         </div>
     </section>
 
-<script>
-    var i = 0;
-    var txt = 'I am Kunaal Gupta';
-    var speed = 50;
-    document.getElementById("demo").innerHTML = 'Hi! '
+    <script>
+        var i = 0;
+        var txt = 'I am Kunaal Gupta';
+        var speed = 50;
+        document.getElementById("demo").innerHTML = 'Hi! '
 
-    async function typeWriter() {
-        if (i < txt.length) {
-            document.getElementById("demo").innerHTML +=  txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);
-        } else {
-            i = 0; // Reset i to 0 when it reaches the end of the text
-            document.getElementById("demo").innerHTML = 'Hi! '
-            setTimeout(typeWriter, speed); // Call the function again to restart typing
+        async function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("demo").innerHTML +=  txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            } else {
+                i = 0; // Reset i to 0 when it reaches the end of the text
+                document.getElementById("demo").innerHTML = 'Hi! '
+                setTimeout(typeWriter, speed); // Call the function again to restart typing
+            }
         }
-    }
 
-    typeWriter(); // Start the typing animation
-</script>
+        typeWriter(); // Start the typing animation
+    </script>
 
 
     <!--    <section class="bg-lighter">-->
