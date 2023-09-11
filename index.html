@@ -145,6 +145,7 @@
             box-shadow: 5px 5px 8px 1px grey;
 
         }
+
     </style>
 </head>
 
@@ -157,36 +158,33 @@
         <header id="header" class="header bg-black navbar-scrolltofixed ">
             <div class="header-nav navbar-sticky navbar-sticky-animated">
                 <div class="header-nav-wrapper">
-                    <div class="container">
-                        <ul class="menuzord-menu" >
+                    <div class="container" >
+                        <ul class="menuzord-menu" style="display: flex; list-style: none; justify-content: center;">
                             <li><a href="#about-me" style="font-size: 18px; font-weight: bold; color: white ">About Me</a> </li>
-                            <li><a href="#my-recent-updates" class="smooth-scroll-to-target"style="font-size: 18px; font-weight: bold; color: white">My Recent Updates</a> </li>
                             <li><a href="#my-experience" class="smooth-scroll-to-target" style="font-size: 18px; font-weight: bold;color: white ">Experience</a></li>
                             <li><a href="#my-projects" class="smooth-scroll-to-target" style="font-size: 18px; font-weight: bold;color: white ">Projects </a></li>
                             <li><a href="#courses" class="smooth-scroll-to-target" style="font-size: 18px; font-weight: bold;color: white">Courses</a></li>
                             <li><a href="#awards-honours" class="smooth-scroll-to-target" style="font-size: 18px; font-weight: bold;color: white">Awards & Honours </a></li>
                             <li><a href="#footer" class="smooth-scroll-to-target" style="font-size: 18px; font-weight: bold; color: white">Contact Me</a></li>
                         </ul>
-                        </nav>
                     </div>
                 </div>
             </div>
         </header>
     </header>
 
-
     <section class="divider @white-f8">
         <div id="about-me"class="container pt-0 pb-120">
             <div class="row" >
                 <div class="myImg col-sm-4">
-                    <img src=" images/KunaalGupta.png" alt="Kunaal Gupta Image" height="50%">
+                    <a href="https://www.linkedin.com/in/iamkunaalgupta/?original_referer=" target="_blank"><img src=" images/KunaalGupta.png" alt="Kunaal Gupta Image" height="50%"></a>
                 </div>
                 <div class="col-sm-8">
                     <h2 id = "demo"></h2>
-                    <h4 id = "info"> <i> "As a <b>Software Developer</b>, I am eager to collaborate with diverse teams to develop and deliver sustainable technologies ensuring optimal functionality, quality, and reliability to improve the end-user experience" </i> </h4>
+                    <h4 id = "info"> <i> "As a </i><b><span style="font-size: 105%; cursor:pointer;color: deepskyblue; font-family: 'Ink Free'"> Software Developer</span></b><i>, I am eager to collaborate with diverse teams to develop and deliver sustainable technologies ensuring optimal functionality, quality, and reliability to improve the end-user experience" </i> </h4>
 
                     <h4 class="University" style="display: flex">
-                        <img src="images/Uofa_logo.png" height="200px">
+                        <a href=" https://www.ualberta.ca/index.html" target="_blank"><img href="https://www.ualberta.ca/index.html" src="images/Uofa_logo.png" height="200px"></a>
                         <div>
                             <span style="font-size: 40px"><b>University of Alberta</b></span><br>
                             <span style="font-size: 25px"> Bachelor in Science (2021-25)</span><br><br>
@@ -266,7 +264,7 @@
     <script>
         var i = 0;
         var txt = 'I am Kunaal Gupta';
-        var speed = 50;
+        var speed = 150;
         document.getElementById("demo").innerHTML = 'Hi! '
 
         async function typeWriter() {
@@ -379,69 +377,70 @@
                 <div class="col-md-12">
                     <section id="cd-timeline" class="cd-container">
                         <div class="cd-timeline-block">
-                            <div class="cd-timeline-img cd-picture">
-                            </div> <!-- cd-timeline-img -->
-                            <div class="cd-timeline-content">
-                                <img src="images/WCB.jpg" class="pull-right" alt="Picture" width="180">
-                                <h2>Worker Compensation Board - Alberta</h2>
-                                <h4>Technology Support Student</h4>
-                                <p>Collaborating with tech experts on cloud computing technologies such as Microsoft Azure, blockchain, and MS Power Platform to support innovation projects</p>
-                                <a class="btn btn-primary" href="https://www.linkedin.com/in/iamkunaalgupta/" class="cd-read-more">Read more</a>
-                                <span class="cd-date">May 2023 - Present</span>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
+                            <div class="cd-timeline-block">
+                                <div class="cd-timeline-img cd-picture">
+                                </div> <!-- cd-timeline-img -->
+                                <div class="cd-timeline-content">
+                                    <img src="images/WCB.jpg" class="pull-right" alt="Picture" width="180">
+                                    <h2>Worker Compensation Board - Alberta</h2>
+                                    <h4>Technology Support Student</h4>
+                                    <p>Collaborating with tech experts on cloud computing technologies such as Microsoft Azure, blockchain, and MS Power Platform to support innovation projects</p>
+                                    <a class="btn btn-primary" href="https://www.linkedin.com/in/iamkunaalgupta/" class="cd-read-more">Read more</a>
+                                    <span class="cd-date">May 2023 - Present</span>
+                                </div> <!-- cd-timeline-content -->
+                            </div> <!-- cd-timeline-block -->
 
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img cd-picture">
-                            </div> <!-- cd-timeline-img -->
-                            <div class="cd-timeline-content">
-                                <img src="images/WCB.jpg" class="pull-right" alt="Picture" width="180">
-                                <h2>Worker Compensation Board - Alberta</h2>
-                                <h4>Summer Student - Project Delivery Office</h4>
-                                <p>Assist with planning, business process mapping, and testing of a new Project Portfolio Management (PPM) solution using business applications like Control-M, Cawemo etc. Manage tickets & resolve technical issues using SQL Server as part of System Support department</p>
-                                <a class="btn btn-primary" href="https://www.linkedin.com/in/iamkunaalgupta/" class="cd-read-more">Read more</a>
-                                <span class="cd-date">May 2022 - April 2023</span>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
+                            <div class="cd-timeline-block">
+                                <div class="cd-timeline-img cd-picture">
+                                </div> <!-- cd-timeline-img -->
+                                <div class="cd-timeline-content">
+                                    <img src="images/WCB.jpg" class="pull-right" alt="Picture" width="180">
+                                    <h2>Worker Compensation Board - Alberta</h2>
+                                    <h4>Summer Student - Project Delivery Office</h4>
+                                    <p>Assist with planning, business process mapping, and testing of a new Project Portfolio Management (PPM) solution using business applications like Control-M, Cawemo etc. Manage tickets & resolve technical issues using SQL Server as part of System Support department</p>
+                                    <a class="btn btn-primary" href="https://www.linkedin.com/in/iamkunaalgupta/" class="cd-read-more">Read more</a>
+                                    <span class="cd-date">May 2022 - April 2023</span>
+                                </div> <!-- cd-timeline-content -->
+                            </div> <!-- cd-timeline-block -->
 
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img cd-movie">
-                            </div> <!-- cd-timeline-img -->
-                            <div class="cd-timeline-content">
-                                <img src="images/Walmart.png" width="200" class="pull-right" alt="Movie">
-                                <h2> Walmart Inc.</h2>
-                                <h4> Customer Availability Process (CAP) 1 Associate</h4>
-                                <p> Resolved queries and effectively communicated information about products with in-store buyers which helped in improving the company’s customer satisfaction index.</p>
-                                <a class="btn btn-primary" href="https://www.linkedin.com/in/iamkunaalgupta/" class="cd-read-more">Read more</a>
-                                <span class="cd-date">Jan 2022 - April 2022</span>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
+                            <div class="cd-timeline-block">
+                                <div class="cd-timeline-img cd-movie">
+                                </div> <!-- cd-timeline-img -->
+                                <div class="cd-timeline-content">
+                                    <img src="images/Walmart.png" width="200" class="pull-right" alt="Movie">
+                                    <h2> Walmart Inc.</h2>
+                                    <h4> Customer Availability Process (CAP) 1 Associate</h4>
+                                    <p> Resolved queries and effectively communicated information about products with in-store buyers which helped in improving the company’s customer satisfaction index.</p>
+                                    <a class="btn btn-primary" href="https://www.linkedin.com/in/iamkunaalgupta/" class="cd-read-more">Read more</a>
+                                    <span class="cd-date">Jan 2022 - April 2022</span>
+                                </div> <!-- cd-timeline-content -->
+                            </div> <!-- cd-timeline-block -->
 
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img cd-movie">
-                            </div> <!-- cd-timeline-img -->
-                            <div class="cd-timeline-content">
-                                <img src="images/Walmart.png" width="200" class="pull-right" alt="Movie">
-                                <h2> Walmart Inc.</h2>
-                                <h4> Dairy Frozen Associate</h4>
-                                <p> Regularly stocked & capped dairy products to reduce inconvenience in managing the inventory and improve the efficiency of the system.</p>
-                                <a  class="btn btn-primary" href="https://www.linkedin.com/in/iamkunaalgupta/" class="cd-read-more">Read more</a>
-                                <span class="cd-date">Oct 2021 - Jan 2022</span>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img cd-movie">
-                            </div> <!-- cd-timeline-img -->
-                            <div class="cd-timeline-content">
-                                <img src="images/PPP_logo/PPP logo_enhanced.jpg" width="200" class="pull-right" alt="Movie">
-                                <h2> P P Pariyojana Consulting Services Pvt. Ltd.</h2>
-                                <h4> Software Engineer Intern</h4>
-                                <p> Developed a full stack quiz app using HTML/CSS, JavaScript & Django on the company's website, enabling the company to provide course training preparation exams to its clients, increasing revenue by 10%. </p>
+                            <div class="cd-timeline-block">
+                                <div class="cd-timeline-img cd-movie">
+                                </div> <!-- cd-timeline-img -->
+                                <div class="cd-timeline-content">
+                                    <img src="images/Walmart.png" width="200" class="pull-right" alt="Movie">
+                                    <h2> Walmart Inc.</h2>
+                                    <h4> Dairy Frozen Associate</h4>
+                                    <p> Regularly stocked & capped dairy products to reduce inconvenience in managing the inventory and improve the efficiency of the system.</p>
+                                    <a  class="btn btn-primary" href="https://www.linkedin.com/in/iamkunaalgupta/" class="cd-read-more">Read more</a>
+                                    <span class="cd-date">Oct 2021 - Jan 2022</span>
+                                </div> <!-- cd-timeline-content -->
+                            </div> <!-- cd-timeline-block -->
+                            <div class="cd-timeline-block">
+                                <div class="cd-timeline-img cd-movie">
+                                </div> <!-- cd-timeline-img -->
+                                <div class="cd-timeline-content">
+                                    <img src="images/PPP_logo/PPP logo_enhanced.jpg" width="200" class="pull-right" alt="Movie">
+                                    <h2> P P Pariyojana Consulting Services Pvt. Ltd.</h2>
+                                    <h4> Software Engineer Intern</h4>
+                                    <p> Developed a full stack quiz app using HTML/CSS, JavaScript & Django on the company's website, enabling the company to provide course training preparation exams to its clients, increasing revenue by 10%. </p>
 
-                                <a class="btn btn-primary" href="https://www.linkedin.com/in/iamkunaalgupta/" class="cd-read-more">Read more</a>
-                                <span class="cd-date">Dec 2020 - Jan 2021</span>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
+                                    <a class="btn btn-primary" href="https://www.linkedin.com/in/iamkunaalgupta/" class="cd-read-more">Read more</a>
+                                    <span class="cd-date">Dec 2020 - Jan 2021</span>
+                                </div> <!-- cd-timeline-content -->
+                            </div> <!-- cd-timeline-block -->
 
                     </section>
                 </div>
@@ -475,7 +474,7 @@
                                                         <h3 class="post-title font-weight-600 mt-0 mb-15">1. Let's Solve it</h3>
                                                         <h4 style="text-align:left">Ideated a proposal, with a team of 5, to plan & develop an AI model to predict the preparedness of the Local health care system against any future disease, for an AI mentorship program by Borealis AI. <br><br></h4>
                                                         <h5><b>Technologies</b>: MS Word, AI/ML Knowledge </h5>
-                                                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1ycDL0x7dwc8Q8h89Itqi8LDdsAROcmZQ/view?usp=sharing" target="_blank" role="button">Open Project</a>
+                                                        <a class="btn btn-primary" STYLE="background-color: deepskyblue; border: 1px solid white ;text-align: center; vertical-align: center; font-size: 120%; width: 80%; height: 50px; font-weight: bold" href="https://drive.google.com/file/d/1ycDL0x7dwc8Q8h89Itqi8LDdsAROcmZQ/view?usp=sharing" target="_blank" role="button">Open Project</a>
 
 
                                                     </div>
@@ -491,7 +490,7 @@
                                                         <h3 class="post-title font-weight-600 mt-0 mb-15">2. Ease Emailing</h3>
                                                         <h4 style="text-align:left">Developed a web application using Python & MySQL for mass emailing which would reduce the time & efforts of rolling out similar-looking multiple emails to a large crowd in just a few clicks for School Project <br><br> </h4>
                                                         <h5>Technologies: Android, Google Firebase ML Kit</h5>
-                                                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1N8bTDGRpiz7yakR7n6xS7-hoffxNpeVT/view?usp=sharing" target="_blank" role="button">Open Project</a>
+                                                        <a class="btn btn-primary" STYLE="background-color: deepskyblue; border: 1px solid white ;text-align: center; vertical-align: center; font-size: 120%; width: 80%; height: 50px; font-weight: bold" href="https://drive.google.com/file/d/1N8bTDGRpiz7yakR7n6xS7-hoffxNpeVT/view?usp=sharing" target="_blank" role="button">Open Project</a>
 
 
                                                     </div>
@@ -506,7 +505,7 @@
                                                         <h3 class="post-title font-weight-600 mt-0 mb-15"> 3. Smart Promotion </h3>
                                                         <h4 style="text-align:left">Designed a Ethereum-based DApp for employee's promotion in Solidity using Truffle, Metamask and Ganache <br><br><br><br><br></h4>
                                                         <h5><b>Technologies</b>: Truffle, Metamask, Ganache, Ethereum, Solidity, HTML/CSS, JS, JSON </h5>
-                                                        <a class="btn btn-primary" role="button"  onclick="ProjAlert()" > Unavailable</a>
+                                                        <a class="btn btn-primary" STYLE="background-color: deepskyblue; border: 1px solid white ;text-align: center; vertical-align: center; font-size: 120%; width: 80%; height: 50px; font-weight: bold" role="button"  onclick="ProjAlert()" > Unavailable</a>
 
                                                         <script>
                                                             function ProjAlert() {
@@ -524,7 +523,7 @@
                                                         <h3 class="post-title font-weight-600 mt-0 mb-15"> 4. Smart Auction </h3>
                                                         <h4 style="text-align:left">Created an Ethereum-based dApp using Solidity smart contract & Remix IDE which allows multiple users to bid on various digital assets <br><br><br><br></h4>
                                                         <h5><b>Technologies</b>: Truffle, Metamask, Ganache, Ethereum, Solidity, HTML/CSS, JS, JSON </h5>
-                                                        <a class="btn btn-primary" href="https://github.com/kunaal-gupta/SmartAuction" target="_blank" role="button">Open Project</a>
+                                                        <a class="btn btn-primary" STYLE="background-color: deepskyblue; border: 1px solid white ;text-align: center; vertical-align: center; font-size: 120%; width: 80%; height: 50px; font-weight: bold" href="https://github.com/kunaal-gupta/SmartAuction" target="_blank" role="button">Open Project</a>
 
                                                     </div>
                                                 </article>
@@ -536,7 +535,7 @@
                                                         <h3 class="post-title font-weight-600 mt-0 mb-15"> 5. TensorFlow - NLP </h3>
                                                         <h4 style="text-align:left">Classified texts using pre-trained NLP text embedding models from TensorFlow & Keras API in Python and performed transfer learning to fine-tune these models with the same data  <br><br><br></h4>
                                                         <h5><b>Technologies</b>: Python, Keras API, Tensorflow, Google Collab </h5>
-                                                        <a class="btn btn-primary" href="https://github.com/kunaal-gupta/TensorFlow-NLP" target="_blank" role="button">Open Project</a>
+                                                        <a class="btn btn-primary" STYLE="background-color: deepskyblue; border: 1px solid white ;text-align: center; vertical-align: center; font-size: 120%; width: 80%; height: 50px; font-weight: bold" href="https://github.com/kunaal-gupta/TensorFlow-NLP" target="_blank" role="button">Open Project</a>
 
                                                     </div>
                                                 </article>
@@ -548,7 +547,7 @@
                                                         <h3 class="post-title font-weight-600 mt-0 mb-15">6. Pac-Man Game </h3>
                                                         <h4 style="text-align:left">Designed a Pacman game with controls & UI using the Unity game engine in C# <br><br><br><br><br><br><br></h4>
                                                         <h5><b>Technologies</b>: C++, Unity 3D Game Engine, Visual Studio Code </h5>
-                                                        <a class="btn btn-primary" href="https://github.com/kunaal-gupta/Pacman-Game" target="_blank" role="button">Open Project</a>
+                                                        <a class="btn btn-primary" STYLE="background-color: deepskyblue; border: 1px solid white ;text-align: center; vertical-align: center; font-size: 120%; width: 80%; height: 50px; font-weight: bold" href="https://github.com/kunaal-gupta/Pacman-Game" target="_blank" role="button">Open Project</a>
 
 
                                                     </div>
@@ -561,7 +560,7 @@
                                                         <h3 class="post-title font-weight-600 mt-0 mb-25"> 7. Object-Oriented Classifier </h3>
                                                         <h4 style="text-align:left">It preprocesses the classifier, calculates the word frequency using the classification algorithm and creates N-folds for Cross Validation <br><br><br><br></h4>
                                                         <h5><b>Technologies</b>: C++, Visual Studio Code </h5>
-                                                        <a class="btn btn-primary" href="https://github.com/kunaal-gupta/ObjectOriented_Classifier" target="_blank" role="button">Open Project</a>
+                                                        <a class="btn btn-primary" STYLE="background-color: deepskyblue; border: 1px solid white ;text-align: center; vertical-align: center; font-size: 120%; width: 80%; height: 50px; font-weight: bold" href="https://github.com/kunaal-gupta/ObjectOriented_Classifier" target="_blank" role="button">Open Project</a>
 
 
                                                     </div>
@@ -574,7 +573,7 @@
                                                         <h3 class="post-title font-weight-600 mt-0 mb-30"> 8. Py2DNimate </h3>
                                                         <h4 style="text-align:left">Designed the coded movements of a virtual pen in virtual canvas using Python’s Turtle library to draw & colour custom 2D visual animations <br><br><br><br><br></h4>
                                                         <h5><b>Technologies</b>: C++, Visual Studio Code </h5>
-                                                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1McIo6_TwKkF1b-5Z-3sFaE9hgxQzxAy5/view?usp=sharing" target="_blank" role="button">Open Project</a>
+                                                        <a class="btn btn-primary" STYLE="background-color: deepskyblue; border: 1px solid white ;text-align: center; vertical-align: center; font-size: 120%; width: 80%; height: 50px; font-weight: bold" href="https://drive.google.com/file/d/1McIo6_TwKkF1b-5Z-3sFaE9hgxQzxAy5/view?usp=sharing" target="_blank" role="button">Open Project</a>
 
 
                                                     </div>
@@ -593,6 +592,7 @@
     </section>
     <section>
         <div class="container pb-60" id = "courses">
+
             <div class="section-title mb-30">
                 <div class="col-md-6 col-md-offset-3  text-center">
                     <h2 class="mt-0">Courses</h2>
@@ -600,6 +600,24 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="service-box border-1px hover-box-shadow p-20 mb-20">
+                        <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/cmput/301"target="_blank"><h4>CMPUT 301 - Introduction to Software Engineering</h4></a>
+                        <!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="service-box border-1px hover-box-shadow p-20 mb-20">
+                        <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/cmput/366"target="_blank"><h4>CMPUT 366 - Search and Planning in Artificial Intelligence</h4></a>
+                        <!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="service-box border-1px hover-box-shadow p-20 mb-20">
+                        <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/econ/101"target="_blank"><h4>CMPUT 355 - Games, Puzzles, Algorithms</h4></a>
+                        <!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
+                    </div>
+                </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="service-box border-1px hover-box-shadow p-20 mb-20">
                         <a class="media-heading heading font-weight-600" href="https://apps.ualberta.ca/catalogue/course/cmput/274" target="_blank"><h4>CMPUT 274 - Intro to Tangible Computing Science - I</h4></a>
@@ -658,6 +676,7 @@
                         <!--                    <p > Basic concepts in computer data processing; entity-relationship model; relational model; SQL and other relational query languages; storage architecture; physical organization of data; access methods for relational data </p>-->
                     </div>
                 </div>
+
             </div>
 
         </div>
